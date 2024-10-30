@@ -52,6 +52,20 @@ if (teachers.indexOf('Fabio') !== -1) {
 const isFabioPresent = teachers.includes('Fabio');
 console.log(isFabioPresent);
 
+/* --------- SOLUZIONE CON CICLO --------- */
+flag = false;
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i] === "Fabio") {
+    flag = true;
+    console.log("Il nome Fabio è presente");
+  }
+}
+if (!flag) {
+  console.log("Il nome Fabio non è presente");
+}
+/* ---------------------------------------- */
+
+
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = teachers.indexOf('Lewis');
