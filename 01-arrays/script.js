@@ -71,5 +71,4 @@ if (isTeachersEmpty) {
   console.log("L'array non è vuoto"); 
 } else {
   console.log("L'array è vuoto");
-  
 }
