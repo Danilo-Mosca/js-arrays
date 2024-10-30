@@ -42,14 +42,16 @@ if (teachers.includes('Fabio')) {
 } else {
   console.log("Il nome non è presente");
 }
-// Oppure
+// Oppure usando il metodo indexOf()
 if (teachers.indexOf('Fabio') !== -1) {
   console.log("Il nome è presente");
 } else {
   console.log("Il nome non è presente");
 }
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.includes('Fabio');
+console.log(isFabioPresent);
+
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
