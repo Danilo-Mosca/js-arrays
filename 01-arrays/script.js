@@ -37,6 +37,17 @@ teachers.unshift('Sarah');
 console.log(teachers);
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
+if (teachers.includes('Fabio')) {
+  console.log("Il nome è presente");
+} else {
+  console.log("Il nome non è presente");
+}
+// Oppure
+if (teachers.indexOf('Fabio') !== -1) {
+  console.log("Il nome è presente");
+} else {
+  console.log("Il nome non è presente");
+}
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;
 
